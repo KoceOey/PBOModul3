@@ -2,7 +2,7 @@ package Model;
 
 import java.util.ArrayList;
 
-public class Dosen extends Staff{
+public abstract class Dosen extends Staff{
     private String departemen;
     private ArrayList <MatkulAjar> matkul;
 
